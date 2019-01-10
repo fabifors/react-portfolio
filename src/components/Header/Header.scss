@@ -1,0 +1,8 @@
+@import url('../css/Variables.scss');
+
+.main-header {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

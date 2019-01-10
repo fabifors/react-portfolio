@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 112.375">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        filter: url(#Path_8);
+      }
+
+      .cls-5 {
+        filter: url(#Path_7);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.156" y1="0.481" x2="1.569" y2="0.553" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eb74d7"/>
+      <stop offset="1" stop-color="#e33fc8"/>
+    </linearGradient>
+    <filter id="Path_7" x="14.884" y="0" width="85.116" height="94.85" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="-0.01" y1="0.225" x2="1.127" y2="0.657" xlink:href="#linear-gradient"/>
+    <filter id="Path_8" x="0" y="49.578" width="61.86" height="62.797" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="brush" transform="translate(364.375 -274.195)">
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-1" width="100" height="90" transform="translate(-364.375 280.195)"/>
+    <g id="Group_10" data-name="Group 10" transform="translate(0.29 -3.298)">
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, -364.66, 277.49)">
+        <path id="Path_7-2" data-name="Path 7" class="cls-2" d="M8.818,0C5.836.091.527,58.785.479,60.336s-2.951,10.908,6.136,10.63,7.793-9.495,7.839-10.949S11.8-.091,8.818,0Z" transform="matrix(0.79, 0.62, -0.62, 0.79, 73.58, 10)"/>
+      </g>
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -364.66, 277.49)">
+        <path id="Path_8-2" data-name="Path 8" class="cls-3" d="M1.7,0s.554,7.5,7.973,7.274a9.68,9.68,0,0,0,9.1-7.108s4.87,10.818-2.717,19.261S3.1,25.421,3.1,25.421s6.812-4.23.309-9.969S1.7,0,1.7,0Z" transform="matrix(0.79, 0.62, -0.62, 0.79, 30.85, 59.58)"/>
+      </g>
+    </g>
+  </g>
+</svg>

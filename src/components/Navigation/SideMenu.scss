@@ -1,0 +1,73 @@
+@import url('../css/Variables.scss');
+
+$background-menu-item: var(--background-light);
+
+.Side-Menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+
+  background-color: #fff;
+  transform: translate3D(100vw, 0, 0);
+  transition: transform 300ms;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &__Heading {
+    margin-top: 1rem;
+    font-size: 3em;
+    color: var(--accent-color);
+  }
+
+  &__Navigation {
+    width: 100%;
+    flex-grow: 1;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      padding: 0 3rem;
+
+      &__item {
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        background: var(--background-light);
+        transition: opacity 300ms, border-radius 300ms;
+
+        &:hover {
+          opacity: 0.7;
+          border-radius: 25px;
+        }
+
+        &__link {
+          display: inline-block;
+          width: 100%;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          text-decoration: none;
+          font-size: 1.25em;
+          color: var(--paragraph-color);
+
+          &:hover {
+            color: var(--accent-color);
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.Side-Menu.open {
+  transform: translate3D(0vw, 0, 0);
+}

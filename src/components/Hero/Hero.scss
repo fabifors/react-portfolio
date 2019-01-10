@@ -1,0 +1,54 @@
+@import url('../css/Variables.scss');
+
+.Hero {
+  height: calc(90vh - var(--header-height));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2.5rem;
+
+  * {
+    font-size: 100%;
+  }
+
+  span {
+    color: var(--accent-color);
+  }
+
+  &__content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__heading {
+      color: var(--accent-color);
+      font-size: 2.5em;
+      font-weight: 600;
+      margin: 0.7rem;
+
+      @media screen and (min-width: 768px) {
+        font-size: 3em;
+      }
+    }
+
+    &__text {
+      font-size: 1.25em;
+      line-height: 1.4em;
+      font-weight: 600;
+      color: var(--paragraph-color);
+      margin-bottom: 3rem;
+
+      @media screen and (min-width: 768px) {
+        font-size: 1.25em;
+      }
+    }
+
+    &__button {
+      background: var(--accent-color);
+      color: hsl(270, 60%, 95%);
+      box-shadow: var(--box-shadow);
+    }
+  }
+}

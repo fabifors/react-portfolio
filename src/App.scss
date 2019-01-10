@@ -1,0 +1,89 @@
+@import url('./components/css/Variables.scss');
+
+/* $accent-color: var(--accent-color); */
+* {
+  box-sizing: border-box;
+  font-family: "proxima-soft", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  color: var(--paragraph-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--accent-color);
+}
+
+a {
+  color: var(--accent-color);
+}
+
+.App {
+  height: 100%;
+}
+
+/*
+=======================================================
+======== Utility Classes ==============================
+=======================================================
+*/
+
+.btn {
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  transition: opacity 300ms;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.btn-md {
+  @extend .btn;
+  padding: 0.75rem 1rem;
+  font-size: 1em;
+}
+
+.btn-lg {
+  @extend .btn;
+  padding: 1rem 1.5rem;
+  font-size: 1.25em;
+}
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 750px;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 970px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 1370px;
+  }
+}
+
+.container-fluid {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}

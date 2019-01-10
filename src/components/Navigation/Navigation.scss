@@ -1,0 +1,31 @@
+@import url('../css/Variables.scss');
+
+.Navigation {
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__item {
+      margin-left: 1.5rem;
+      list-style: none;
+
+      &__link {
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 300ms;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      &__button {
+        background: var(--accent-color);
+        color: hsl(250, 60%, 95%);
+      }
+    }
+  }
+
+  .menu-btn {}
+}

@@ -1,0 +1,20 @@
+$accent-color: hsla(270, 60%, 50%, 1);
+
+:root {
+  --accent-color: #{$accent-color};
+  --paragraph-color: hsl(270, 15%, 30%);
+  --boxshadow-color: hsla(270, 15%, 30%, 0.25);
+  --header-height: 90px;
+  --background-light: hsla(260, 15%, 95%, 1);
+
+  --box-shadow: 0px 10px 20px var(--boxshadow-color);
+}
+
+:export {
+  //Exporting Colors
+  accentColor: var(--accent-color);
+  paragraphColor: var(--paragraph-color);
+
+  //Exporting height values
+  headerHeight: var(--header-height);
+}

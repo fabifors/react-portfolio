@@ -1,0 +1,63 @@
+
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0.35;
+      }
+
+      .cls-3 {
+        stroke: #b2b2b2;
+        stroke-width: 5px;
+      }
+
+      .cls-3, .cls-5, .cls-6 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        fill: #959595;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #959595;
+      }
+
+      .cls-5 {
+        stroke-width: 7px;
+      }
+
+      .cls-6 {
+        stroke: #e33fc8;
+        stroke-width: 8px;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <svg xmlns="http://www.w3.org/2000/svg" width="109" height="70" viewBox="0 0 109 70">
+  <g id="logo" transform="translate(-168 -21)">
+    <rect id="binding_box" data-name="binding box" class="cls-1" width="109" height="70" transform="translate(168 21)"/>
+    <g id="brackets" class="cls-2" transform="translate(174.083 38)">
+      <path id="Path_3" data-name="Path 3" class="cls-3" d="M432.5,224.5,451.382,243,432.5,261.5" transform="translate(-351.715 -224.5)"/>
+      <path id="Path_4" data-name="Path 4" class="cls-3" d="M0,0,18.882,18.5,0,37" transform="translate(16.048 37) rotate(180)"/>
+    </g>
+    <g id="fabian" transform="translate(202 25.494)">
+      <g id="n4" class="cls-4" transform="translate(40 19.506)">
+        <circle class="cls-7" cx="3" cy="3" r="3"/>
+        <circle class="cls-1" cx="3" cy="3" r="2.5"/>
+      </g>
+      <path id="n3" class="cls-5" d="M347.4,259.262v-29.28" transform="translate(-304.402 -198)"/>
+      <path id="n2" class="cls-5" d="M318.667,222,347.4,259.262" transform="translate(-304.402 -198)"/>
+      <path id="bf1" class="cls-6" d="M320,243.338s32.351-16.921,32.351,8.124" transform="translate(-320 -222.667)"/>
+      <path id="bf" class="cls-6" d="M352.351,251.462C352.351,276.507,320,264.1,320,264.1V222.667h23.832" transform="translate(-320 -222.667)"/>
+      <path id="n1" class="cls-5" d="M318.667,259.262V222" transform="translate(-304.402 -198)"/>
+    </g>
+  </g>
+</svg>

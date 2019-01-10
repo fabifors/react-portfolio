@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #e33fc8;
+        stroke-linecap: round;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        filter: url(#Line_2);
+      }
+
+      .cls-5 {
+        filter: url(#Path_20);
+      }
+
+      .cls-6 {
+        filter: url(#Path_19);
+      }
+    </style>
+    <filter id="Path_19" x="49.79" y="18.607" width="47.71" height="62.421" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_20" x="2.833" y="18.606" width="47.71" height="62.421" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_2" x="23.763" y="17.763" width="52.474" height="64.474" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="code" transform="translate(364.375 -280.195)">
+    <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-1" width="100" height="90" transform="translate(-364.375 280.195)"/>
+    <g id="Group_12" data-name="Group 12" transform="translate(-749.042 -1055.888)">
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, 384.67, 1336.08)">
+        <path id="Path_19-2" data-name="Path 19" class="cls-2" d="M-266,1268l14.71,14.71L-266,1297.421" transform="translate(332.29 -1237.89)"/>
+      </g>
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, 384.67, 1336.08)">
+        <path id="Path_20-2" data-name="Path 20" class="cls-2" d="M0,0,14.71,14.71,0,29.421" transform="translate(34.04 59.53) rotate(180)"/>
+      </g>
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, 384.67, 1336.08)">
+        <line id="Line_2-2" data-name="Line 2" class="cls-3" x1="17" y2="29" transform="translate(41.5 30.5)"/>
+      </g>
+    </g>
+  </g>
+</svg>
