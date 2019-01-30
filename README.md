@@ -1,5 +1,5 @@
 # React Portfolio
-As part of an assignment in school I started developing my portfolio website in React.js. I previous portfolio https://github.com/fabifors/portfolio was built using nothing but pure vanilla js, html5 and css3. This project is aimed at developing my skills as a Front-End Development.
+As part of an assignment in school I started developing my portfolio website in React.js. The previous portfolio https://github.com/fabifors/portfolio was built using nothing but pure vanilla js, html5 and css3. This project is aimed at developing my skills as a Front-End Development.
 
 ## Available Scripts
 
